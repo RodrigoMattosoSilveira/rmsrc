@@ -19,6 +19,10 @@
 repositories=$1
 regex="(git@github.com:)(.*)(/)(.*)(\.)"
 
+TEMP_REPO='temp-linecount-repo'
+CLOC_OUTPUT='clocOutput.log'
+GIT_COMMIT_LOG='../gitCommit.log'
+
 # Based on https://www.linuxjournal.com/content/bash-regular-expressions
 while read repositoryUrl
 do
@@ -28,6 +32,20 @@ do
       organization="${BASH_REMATCH[2]}"
       repository="${BASH_REMATCH[4]}"
       echo $organization $repository
-      # echo Repostitory: $repository
+
+      # Clone the repository, move into it, and extract the monthly SHA
+      rm -rf $TEMP_REPO || true
+      git clone $repositoryUrl $TEMP_REPO
+      cd $TEMP_REPO
+      getMonthlySHA > '../monthlySha.log'
+      while read monthlyShaLine
+      do
+         echo $monthlyShaLine
+         sha="$(echo ${monthlyShaLine:0:41})"
+         shaDate="$(echo ${monthlyShaLine:40:8})"
+         echo $sha-$shaDate
+      done < '../monthlySha.log'
+      cd ..
+      rm -rf $TEMP_REPO
    fi
 done < $repositories
