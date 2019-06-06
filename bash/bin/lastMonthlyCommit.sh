@@ -1,10 +1,11 @@
 
 #!/usr/bin/env bash
 
-# A script to delete a local and remote git tag on the current repository
+# Given a repository, extracts the last SHA for all months, in the format:
+#    repository yyyy-mm sha
 #
 # Uasge
-#    gitTagDelete -<tag name>
+#    lastMonthlyCommit.sh
 #
 # Input
 #   $1 - tagname
