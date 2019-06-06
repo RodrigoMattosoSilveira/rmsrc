@@ -20,10 +20,10 @@ repositories=$1
 regex="(git@github.com:)(.*)(/)(.*)(\.)"
 
 TEMP_REPO='temp-linecount-repo'
-CLOC_OUTPUT='clocOutput.log'
 GIT_COMMIT_LOG='../gitCommit.log'
 
 # Based on https://www.linuxjournal.com/content/bash-regular-expressions
+echo Organization Repository Data DOC SRC > './svicLoc.txt'
 while read repositoryUrl
 do
    # echo $repositoryUrl
@@ -40,10 +40,32 @@ do
       getMonthlySHA > '../monthlySha.log'
       while read monthlyShaLine
       do
-         echo $monthlyShaLine
+         # echo $monthlyShaLine
          sha="$(echo ${monthlyShaLine:0:41})"
          shaDate="$(echo ${monthlyShaLine:40:8})"
-         echo $sha-$shaDate
+         echo Processing SHA: $sha/$shaDate
+         cloc "$sha"  > '../clocOutput.log'
+
+         # Extract the LOC for this SHA
+         while read clocLogLine
+         do
+            # echo $clocLogLine
+            testString="$(echo ${clocLogLine:0:3})"
+            # echo Test String: $testString
+            if [ ! -z "$testString" -a "$testString" != " " ];
+            then
+               if [ $testString == 'SUM' ]
+               then
+                  # echo "$clocLogLine"
+                  locDoc="$(echo ${clocLogLine:50:15})"
+                  locSrc="$(echo ${clocLogLine:65:15})"
+                  # echo repo:   $REPO
+                  # echo locDoc: $locDoc
+                  # echo locSrc: $locSrc
+                  echo $organization $repository $shaDate $locDoc $locSrc >> '../svicLoc.txt'
+               fi
+            fi
+         done < '../clocOutput.log'
       done < '../monthlySha.log'
       cd ..
       rm -rf $TEMP_REPO

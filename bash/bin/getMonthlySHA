@@ -13,8 +13,8 @@
 # Output
 #   repository yyyy-mm sha
 #
-GIT_COMMIT_LOG="../gitCommit.log"
-git log --pretty=format:'%H %cI' > $GIT_COMMIT_LOG
+GIT_SHA_LOG="../gitSHA.log"
+git log --pretty=format:'%H %cI' > $GIT_SHA_LOG
 
 # handle line breaks properly; needed when a line has spaces or tabs
 IFS=$'\n'
@@ -33,4 +33,4 @@ do
       echo $gitLogLine
       controlString=$testString
    fi
-done < $GIT_COMMIT_LOG
+done < $GIT_SHA_LOG
