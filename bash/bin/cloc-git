@@ -23,7 +23,7 @@ TEMP_REPO='temp-linecount-repo'
 GIT_COMMIT_LOG='../gitCommit.log'
 
 # Based on https://www.linuxjournal.com/content/bash-regular-expressions
-echo Organization Repository Data DOC SRC > './svicLoc.txt'
+echo Organization Repository Date DOC SRC Total> './svicLoc.txt'
 while read repositoryUrl
 do
    # echo $repositoryUrl
@@ -62,7 +62,8 @@ do
                   # echo repo:   $REPO
                   # echo locDoc: $locDoc
                   # echo locSrc: $locSrc
-                  echo $organization $repository $shaDate $locDoc $locSrc >> '../svicLoc.txt'
+                  totalLoc=$(($locDoc+$locSrc))
+                  echo $organization $repository $shaDate $locDoc $locSrc $totalLoc>> '../svicLoc.txt'
                fi
             fi
          done < '../clocOutput.log'
