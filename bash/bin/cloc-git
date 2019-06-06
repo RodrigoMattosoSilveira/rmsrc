@@ -1,0 +1,33 @@
+#!/usr/bin/env bash
+
+# A script to extract the LOC, on a monthly basis, from a list of repositories
+#
+# Uasge
+#    cloc-git <file>
+#
+# Input
+#   $1 - file: a list of the repositories to be scanned, one per line, as
+#   follows
+#      git@github.com:<organization>a/<repository>.git
+#
+# Output
+#   A file, with the LOC counts, as follows:
+#      organization repository date     docLoc srcLoc
+#      string       string     YYYY-MM  number number
+#
+
+repositories=$1
+regex="(git@github.com:)(.*)(/)(.*)(\.)"
+
+# Based on https://www.linuxjournal.com/content/bash-regular-expressions
+while read repositoryUrl
+do
+   # echo $repositoryUrl
+   if [[ $repositoryUrl =~ $regex ]]; then
+      # echo "$repositoryUrl matches"
+      organization="${BASH_REMATCH[2]}"
+      repository="${BASH_REMATCH[4]}"
+      echo $organization $repository
+      # echo Repostitory: $repository
+   fi
+done < $repositories
