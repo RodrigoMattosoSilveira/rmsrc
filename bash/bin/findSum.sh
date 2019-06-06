@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-# A scri#!/usr/bin/env bash
-
 # A script to delete a local and remote git tag on the current repository
 #
 # Uasge

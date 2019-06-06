@@ -8,7 +8,9 @@
 #    gitTagDelete -<tag name>
 #
 # Input
-#   $1 - tagname
+#   $1 - organization
+#   $2 - repo
+#   2$ - SHA
 #
 # Output
 #   bash status: 0=OK, other=failed
@@ -25,14 +27,4 @@ git clone "$1" temp-linecount-repo &&
   cloc "$2"  > '../'$CLOC_OUTPUT &&
   cd .. &&
   rm -rf temp-linecount-repo
-for gitLogLine in `cat $CLOC_OUTPUT`
-do
-  # echo ${gitLogLine:41:7}
-  testString="$(echo ${gitLogLine:41:7})"
-  # echo $testString
-  if [ "$testString" != "$controlString" ]
-  then
-     echo $gitLogLine
-     controlString=$testString
-  fi
-done
+~/rmsrc/bash/bin/findSum.sh
