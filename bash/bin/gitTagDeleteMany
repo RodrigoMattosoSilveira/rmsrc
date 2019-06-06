@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+
+# A script delete tags named in the local tags.txt file
+#
+# Uasge
+#    gitTagDeleteMany
+#
+# Input
+#   None
+#
+# Output
+#   None, deletes all tags
+#
+
+while read tag
+do
+      gitTagDelete $tag
+done < './tags.txt'
