@@ -3,7 +3,7 @@
 # A script to delete a local and remote git tag on the current repository
 #
 # Uasge
-#    gitTagDelete -<tag name>
+#   $1 Repo name
 #
 # Input
 #   $1 - tagname
@@ -11,7 +11,7 @@
 # Output
 #   bash status: 0=OK, other=failed
 #
-REPO='temp-linecount-repo'
+REPO=$1
 CLOC_OUTPUT='clocOutput.log'
 testString=''
 locDoc=''
@@ -22,12 +22,17 @@ do
    # echo $clocLogLine
    testString="$(echo ${clocLogLine:0:3})"
    # echo Test String: $testString
-   if [ $testString == 'SUM' ]
+   if [ ! -z "$testString" -a "$testString" != " " ];
    then
-      echo "$clocLogLine"
-      locDoc="$(echo ${clocLogLine:50:15})"
-      locSrc="$(echo ${clocLogLine:65:15})"
-      echo locDoc: $locDoc
-      echo locSrc: $locSrc
+      if [ $testString == 'SUM' ]
+      then
+         # echo "$clocLogLine"
+         locDoc="$(echo ${clocLogLine:50:15})"
+         locSrc="$(echo ${clocLogLine:65:15})"
+         # echo repo:   $REPO
+         # echo locDoc: $locDoc
+         # echo locSrc: $locSrc
+         echo $REPO $locDoc $locSrc
+      fi
    fi
 done < $CLOC_OUTPUT

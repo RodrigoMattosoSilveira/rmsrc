@@ -15,16 +15,21 @@
 # Output
 #   bash status: 0=OK, other=failed
 #
-REPO='temp-linecount-repo'
+ORAGANIZATION=$1
+REPOSITORY=$2
+
+URL='git@github.com:'$1'/'$REPOSITORY'.git'
+echo Conting L for: $URL
+
+TEMP_REPO='temp-linecount-repo'
 CLOC_OUTPUT='clocOutput.log'
 
 rm -rf $REPO || true
 
-git clone "$1" temp-linecount-repo &&
-  printf "('temp-linecount-repo' will be deleted automatically)\n\n\n" &&
-  cd temp-linecount-repo
-  rm -f $CLOC_OUTPUT || true
-  cloc "$2"  > '../'$CLOC_OUTPUT &&
+git clone $URL $TEMP_REPO &&
+  cd $TEMP_REPO
+  rm -f  '../'$CLOC_OUTPUT || true
+  cloc "$3"  > '../'$CLOC_OUTPUT &&
   cd .. &&
-  rm -rf temp-linecount-repo
-~/rmsrc/bash/bin/findSum.sh
+  rm -rf $TEMP_REPO
+~/rmsrc/bash/bin/findSum.sh $REPOSITORY
