@@ -5,4 +5,3 @@ Used to collect bash_profile initialization elements, divided in the following s
 - path: system wide paths, with application specific included in the application scripts, see golang;
 - export: system wide exports, with application specific included in the application scripts, see golang;
 - <application>: specific configuration for applications, see golang;
-, see golang;
