@@ -1,5 +1,6 @@
 alias tobash='source ~/.bashrc'
 alias ll='ls -alF'
+alias toprj='cd ~/projects'
 alias towuf='cd ~/projects/wuf'
 alias tosl='cd ~/projects/rms-sparklines'
 alias toaw='cd ~/projects/ng-workspace'
