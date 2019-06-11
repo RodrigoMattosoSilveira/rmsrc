@@ -3,6 +3,7 @@
 # A script to delete a local and remote git tag on the current repository
 #
 # Uasge
+#    git --no-pager tag -l | gitTagDelete
 #    gitTagDelete -<tag name>
 #
 # Input

@@ -3,7 +3,9 @@
 # A script delete tags named in the local tags.txt file
 #
 # Uasge
-#    gitTagDeleteMany
+#    run: $ git --no-pager tag -l 'v*\.*\.*\.*' > tags.txt (anything that is not a normal tag)
+#    edit tags to keep only tags to be deleted
+#    run: $ | gitTagDeleteMany
 #
 # Input
 #   None
