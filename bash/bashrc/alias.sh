@@ -1,6 +1,8 @@
-alias tobash='source ~/.bashrc'
 alias ll='ls -alF'
+
+alias tobash='source ~/.bashrc'
+alias togo='~/projects/theGoProgramingLanguage'
+alias tongw='cd ~/projects/ng-workspace'
 alias toprj='cd ~/projects'
-alias towuf='cd ~/projects/wuf'
 alias tosl='cd ~/projects/rms-sparklines'
-alias toaw='cd ~/projects/ng-workspace'
+alias towuf='cd ~/projects/wuf'
