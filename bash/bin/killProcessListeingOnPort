@@ -13,7 +13,7 @@
 #
 GREP_OUTPUT_LOG="grep_output.log"
 currentWordIndex=0
-killed="false"
+killed=false
 
 lsof -nP -i4TCP:$1 | grep $1 > $GREP_OUTPUT_LOG
 while read sentence; do
@@ -21,11 +21,11 @@ while read sentence; do
       if [ $currentWordIndex -eq 1 ]; then
          kill $word
          echo "killed: " $word
-         $killed="true"
+         killed=true
       fi
       (( currentWordIndex++ ))
    done
 done < $GREP_OUTPUT_LOG
-if [ $killed == "false" ]; then
-   echo "No process running on port " $1 
+if [ $killed = false ]; then
+   echo "No process running on port " $1
 fi
