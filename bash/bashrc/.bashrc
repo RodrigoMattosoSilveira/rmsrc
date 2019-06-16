@@ -1,9 +1,7 @@
-# http://www.cyberciti.biz/tips/howto-linux-unix-bash-shell-setup-prompt.html
-# http://www.cyberciti.biz/faq/bash-shell-change-the-color-of-my-shell-prompt-under-linux-or-unix/
-# See /etc/bashrc for setting prompt to red when in root mode
-# export PS1="\e[0;32m[ \W ]\e[m$  "
-# export PS1="[\[\033[32m\]\w]\[\033[0m\]\$ "
-export PS1="\[\e[36m\]\u\[\e[m\]@\[\e[32m\]\h\[\e[m\][\[\e[33m\]\w\[\e[m\]]\n$ "
+## Terminal prompt set up
+if [ -f ~/rmsrc/bash/prompts/iTerm_dark_mode ]; then
+   source ~/rmsrc/bash/prompts/iTerm_dark_mode
+fi
 
 alias ll='ls -al'
 alias lh='ls -a | egrep "^\."'
@@ -54,6 +52,12 @@ export PATH=/sbin:$PATH
 export PATH=/bin:$PATH
 export PATH=~/rmsrc/bash/bin:$PATH
 
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+# Go language
+if [ -f ~/rmsrc/bash/bashrc/gorc ]; then
+   source ~/rmsrc/bash/bashrc/gorc
+fi
+
+# NVM
+if [ -f ~/rmsrc/bash/bashrc/nvmrc ]; then
+   source ~/rmsrc/bash/bashrc/nvmrc
+fi
