@@ -1,4 +1,3 @@
-
 #!/usr/bin/env bash
 
 # Given a repository, extracts the last SHA for all months, in the format:

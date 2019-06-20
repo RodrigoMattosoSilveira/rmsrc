@@ -18,3 +18,4 @@ while read tag
 do
       gitTagDelete $tag
 done < './tags.txt'
+rm -f ./tags.txt
