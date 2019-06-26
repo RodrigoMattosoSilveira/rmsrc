@@ -8,6 +8,7 @@ alias catpath='cat ~/rmsrc/bash/bashrc/path.sh'
 
 alias tobash='source ~/.bashrc'
 alias tongw='cd ~/projects/ng-workspace'
+alias tolsg='cd ~/projects/living-style-guide'
 alias toprj='cd ~/projects'
 alias tormsrc='cd ~/rmsrc'
 alias tosl='cd ~/projects/rms-sparklines'
