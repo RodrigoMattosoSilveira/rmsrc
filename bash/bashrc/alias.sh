@@ -7,6 +7,7 @@ alias catalias='cat ~/rmsrc/bash/bashrc/alias.sh'
 alias catpath='cat ~/rmsrc/bash/bashrc/path.sh'
 
 alias tobash='source ~/.bashrc'
+alias tofui='cd ~/projects/fleetmanager-ui'
 alias tongw='cd ~/projects/ng-workspace'
 alias tolsg='cd ~/projects/living-style-guide'
 alias toprj='cd ~/projects'
