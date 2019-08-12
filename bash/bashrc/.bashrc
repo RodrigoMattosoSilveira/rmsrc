@@ -17,7 +17,7 @@ export AWS_SECRET_KEY=dg9LdT4BxQ1qYp5w3imitZgFs102DaUnGQA5IAim
 export EC2_HOME=/Applications/ec2-api-tools-1.6.7.4
 export EDITOR=jEdit.app
 export GREP_OPTIONS='--color=auto'
-export JAVA_HOME='/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home'
+export JAVA_HOME='/Library/Java/JavaVirtualMachines/jdk-12.0.2.jdk/Contents/Home'
 export JBOSS_HOME=/usr/share/jboss-as
 export JBOSS_I18N=modules/com/markodojo/configuration/main
 export LC_CTYPE=en_US.UTF-8
