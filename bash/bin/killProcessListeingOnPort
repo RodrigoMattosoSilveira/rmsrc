@@ -3,7 +3,7 @@
 # A script kill the process listening to a port
 #
 # Uasge
-#    killProcessListeingtoPort <port number>
+#    killProcessListeingOnPort <port number>
 #
 # Input
 #   port number
