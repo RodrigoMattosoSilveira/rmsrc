@@ -33,6 +33,12 @@ if [ -r ~/rmsrc/bash/bashrc/maven.sh ]; then
    source ~/rmsrc/bash/bashrc/maven.sh
 fi
 
+# NVM
+if [ -r ~/rmsrc/bash/bashrc/nvm.sh ]; then
+   echo "~/rmsrc/bash/bashrc/.bashrc: Setting up nvm: ~/rmsrc/bash/bashrc/nvm.sh"
+   source ~/rmsrc/bash/bashrc/nvm.sh
+fi
+
 # ODBC configuration
 if [ -r ~/rmsrc/bash/bashrc/odbc.sh ]; then
    echo "~/rmsrc/bash/bashrc/.bashrc: Setting up odbc: ~/rmsrc/bash/bashrc/odbc.sh"

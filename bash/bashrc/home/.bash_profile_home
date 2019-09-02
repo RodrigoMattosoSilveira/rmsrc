@@ -1,0 +1,4 @@
+if [ -r ~/.bashrc ]; then
+   echo ".bash_profile: sourcing ~/.bashrc"
+   source ~/.bashrc
+fi

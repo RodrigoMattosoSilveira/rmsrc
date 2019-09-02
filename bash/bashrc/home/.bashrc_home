@@ -1,0 +1,4 @@
+if [ -r ~/rmsrc/bash/bashrc/.bashrc ]; then
+   echo "~/.bashr: sourcing: ~/rmsrc/bash/bashrc/.bashrc"
+   source ~/rmsrc/bash/bashrc/.bashrc
+fi
