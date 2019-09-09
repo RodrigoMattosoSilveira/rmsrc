@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+# IN order to make this work on your current shell, use:
+# $ . totdd
+
+echo "~/rmsrc/bash/bin/totdd: Setting up tdd environment"
+export GOPATH="/Users/rodrigosilveira/projects/TestDrivenDevelopmentWithGolang/server"
+cd ~/projects/TestDrivenDevelopmentWithGolang
