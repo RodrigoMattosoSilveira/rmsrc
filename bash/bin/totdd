@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+export GOPATH=/Users/rodrigosilveira/projects/TestDrivenDevelopmentWithGolang/server
+cd ~/projects/TestDrivenDevelopmentWithGolang
