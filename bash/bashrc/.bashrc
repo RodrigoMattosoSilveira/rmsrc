@@ -45,6 +45,12 @@ if [ -r ~/rmsrc/bash/bashrc/odbc.sh ]; then
    source ~/rmsrc/bash/bashrc/odbc.sh
 fi
 
+# ruby
+if [ -r ~/rmsrc/bash/bashrc/travis.sh ]; then
+   echo "~/rmsrc/bash/bashrc/.bashrc: Setting up travis: ~/rmsrc/bash/bashrc/ruby"
+   source ~/rmsrc/bash/bashrc/ruby
+fi
+
 # Travis, added by travis gem
 if [ -r ~/rmsrc/bash/bashrc/travis.sh ]; then
    echo "~/rmsrc/bash/bashrc/.bashrc: Setting up travis: ~/rmsrc/bash/bashrc/travis.sh"
