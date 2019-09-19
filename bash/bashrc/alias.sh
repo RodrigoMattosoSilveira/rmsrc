@@ -6,6 +6,7 @@ alias ll='ls -alF'
 alias catalias='cat ~/rmsrc/bash/bashrc/alias.sh'
 alias catpath='cat ~/rmsrc/bash/bashrc/path.sh'
 
+alias toa42='cd ~/projects/agent42'
 alias tobash='source ~/.bashrc'
 alias tofui='cd ~/projects/fleetmanager-ui'
 alias tongw='cd ~/projects/ng-workspace'
