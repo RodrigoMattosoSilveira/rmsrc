@@ -6,6 +6,9 @@ alias ll='ls -alF'
 alias catalias='cat ~/rmsrc/bash/bashrc/alias.sh'
 alias catpath='cat ~/rmsrc/bash/bashrc/path.sh'
 
+# stop all active docker containers
+alias ds='docker container stop $(docker container list -qa)'
+
 alias toa42='cd ~/projects/agent42'
 alias tobash='source ~/.bashrc'
 alias tofui='cd ~/projects/fleetmanager-ui'
