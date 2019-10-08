@@ -3,6 +3,7 @@
 # Used to set the project's GO workspace
 
 # Usage
+# $ navigate to the project's workspace
 # $ setgopath.sh
 FILE=~/.bashrc
 
