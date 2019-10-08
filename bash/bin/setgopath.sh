@@ -4,4 +4,10 @@
 
 # Usage
 # $ setgopath.sh
-sed -i .bak "s+export GOPATH=.*+export GOPATH=$PWD+"  ~/.bashrc
+FILE=~/.bashrc
+
+if grep -q "export GOPATH=" "$FILE"; then
+  sed -i .bak "s+export GOPATH=.*+export GOPATH=$PWD+"  ~/.bashrc # SomeString was found
+else
+  echo export GOPATH=$PWD >> $FILE
+fi
