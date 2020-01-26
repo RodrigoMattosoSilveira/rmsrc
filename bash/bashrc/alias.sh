@@ -9,6 +9,7 @@ alias catpath='cat ~/rmsrc/bash/bashrc/path.sh'
 # stop all active docker containers
 alias ds='docker container stop $(docker container list -qa)'
 
+alias pymle=' source ~/rmsrc/bash/bashrc/pyMlByExample.sh'
 alias toa42='cd ~/projects/agent42'
 alias tobash='source ~/.bashrc'
 alias tofui='cd ~/projects/fleetmanager-ui'
