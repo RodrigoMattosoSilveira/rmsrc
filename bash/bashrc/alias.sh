@@ -4,7 +4,9 @@ alias ll='ls -alF'
 
 # Note that some alias commands might be with the Language, e.g, go
 alias catalias='cat ~/rmsrc/bash/bashrc/alias.sh'
+alias catbash='cat ~/.bashrc'
 alias catpath='cat ~/rmsrc/bash/bashrc/path.sh'
+alias chrome='open /Applications/Google\ Chrome.app --args --allow-file-access-from-files'
 
 # stop all active docker containers
 alias ds='docker container stop $(docker container list -qa)'
