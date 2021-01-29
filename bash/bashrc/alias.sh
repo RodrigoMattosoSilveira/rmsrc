@@ -15,6 +15,7 @@ alias pymle=' source ~/rmsrc/bash/bashrc/pyMlByExample.sh'
 alias toa42='cd ~/projects/agent42'
 alias tobash='source ~/.bashrc'
 alias toswiss='cd ~/projects/chess-tournament-swiss'
+alias tonem="cd ~/projects/node-express-mongo-boilerplate"
 alias tofui='cd ~/projects/fleetmanager-ui'
 alias tongb='cd ~/projects/ng-bazel'
 alias tongw='cd ~/projects/ng-workspace'
