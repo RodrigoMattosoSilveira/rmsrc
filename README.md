@@ -1,4 +1,5 @@
-# This repo is a home for my initialization files.  I built it while using `MACOS/bash` and now I'm expanding it to cover `MACOS/zdh`.
+# Introduction
+This repo is a home for my initialization files.  I built it while using `MACOS/bash` and now I'm expanding it to cover `MACOS/zdh`.
 
 # bash
 
