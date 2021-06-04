@@ -2,7 +2,7 @@
 This repo is a home for my initialization files.  I built it while using `MACOS/bash` and now I'm expanding it to cover `MACOS/zdh`.
 
 # bash
-Later
+Later ...
 
 # zsh
 I used [Carlos Roso post](https://carlosroso.com/the-right-way-to-migrate-your-bash-profile-to-zsh/) as the basis to migrate `bash` to `zsh`.
