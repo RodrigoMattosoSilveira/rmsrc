@@ -1,12 +1,5 @@
-#!/bin/sh
-# Automatically adds branch name to the end of every commit message.
-# Configure it by issuing the following command:
-# $ git config --global core.hooksPath <path>
+# Automatically adds branch name to the end of every commit message
+# echo $(cat "$1") "$NAME" > "$1"
 
 NAME=$(git branch | grep '*' | sed 's/* //')
-
-if [ -z "$NAME" ]; then
-   echo $(cat "$1")> "$1"
-else
-   echo "$NAME" " - " $(cat "$1")> "$1"
-fi
+echo "$NAME" $(cat "$1") > "$1"
