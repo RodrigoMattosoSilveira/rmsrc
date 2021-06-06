@@ -14,8 +14,8 @@ I used [Carlos Roso post](https://carlosroso.com/the-right-way-to-migrate-your-b
 
 # Migration
 Carlos recommends using these files as follows:
-* Copy `$PATH` statements to `~/.zshenv`;
-* Copy your alias, functions, key bidings, and others to `~/.zshrc`;
+* Copy all exported variables that should be available to other programs, as for example, $PATH to `~/.zshenv`;
+* Copy your alias, functions, key bindings, and others to `~/.zshrc`;
 
 # Strategy
-I'll not migrate all my `bash stuff` at once. Instead, I'll do the minimum necessary to build and operationalize Carlos' recommendation; then, I'll migrate my `bash stuff` on a as necessary basis.
+I'll not migrate all my `bash stuff` at once. Instead, I'll do the minimum necessary to build and operationalize Carlos' recommendations on my `zsh` system; then, I'll migrate my `bash stuff` on a as necessary basis.
