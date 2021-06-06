@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-echo "sourcing /Users/rodrigosilveira/projects/rmsrc/zsh/zshrc/alias.sh"
+echo "sourcing /Users/rodrigosilveira/rmsrc/zsh/zshrc/alias.sh"
 
 # command line aliases
 alias ll='ls -alF'

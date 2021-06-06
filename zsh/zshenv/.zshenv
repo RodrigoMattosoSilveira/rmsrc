@@ -1,1 +1,1 @@
-echo "I'm ./Users/rodrigosilveira/projects/rmsrc/zsh/zshenv/.zshenv"
+echo "I'm /Users/rodrigosilveira/rmsrc/zsh/zshenv/.zshenv"
