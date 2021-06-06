@@ -19,3 +19,7 @@ Carlos recommends using these files as follows:
 
 # Strategy
 I'll not migrate all my `bash stuff` at once. Instead, I'll do the minimum necessary to build and operationalize Carlos' recommendations on my `zsh` system; then, I'll migrate my `bash stuff` on a as necessary basis.
+
+All my custom initializations will live in `~/projects/rmsrc/zsh`. Accordinly, I'll use `~/projects/rmsrc/zsh/zshrc/.zshrc.sh` and `~/projects/rmsrc/zsh/zshenv/.zshenv.sh` to store my customizations.
+
+In both cases, these files will source all the `.sh` files in their folders.
