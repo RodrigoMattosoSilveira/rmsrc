@@ -10,4 +10,6 @@ alias path='env | grep "PATH"'
 alias catalias='cat ~/rmsrc/zsh/zshrc/alias.sh'
 
 # Navigating aliases
+alias tonodes='cd ~/projects/node-scripts'
 alias tormsrc='cd ~/rmsrc'
+alias toswiss='cd ~/projects/chess-tournament-swiss'
