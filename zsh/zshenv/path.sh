@@ -2,3 +2,4 @@
 echo "sourcing /Users/rodrigosilveira/rmsrc/zsh/zshenv/path.sh"
 
 PATH=$PATH:/Applications
+PATH=$PATH:~/.local/bin
