@@ -15,6 +15,7 @@ alias catalias='cat ~/rmsrc/zsh/zshrc/alias.sh'
 alias source_zsh="source ~/rmsrc/zsh/zsh_rc_env.sh"
 
 # Navigating aliases
+alias togia='cd ~/projects/graphql-in-action'
 alias tonodes='cd ~/projects/node-scripts'
 alias totsm='cd ~/projects/rms-ts-monads'
 alias tormsrc='cd ~/rmsrc'
