@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e68dd1a2-39be-4859-9caa-3d9b30eb6720" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zsh/zshenv/graphviz.sh" beforeDir="false" afterPath="$PROJECT_DIR$/zsh/zshenv/graphviz.sh" afterDir="false" />
+    <list default="true" id="e68dd1a2-39be-4859-9caa-3d9b30eb6720" name="Default Changelist" comment="Configured the folder where yarn places">
+      <change afterPath="$PROJECT_DIR$/zsh/zshenv/yarn.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,5 +55,6 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Fixed paths, added GRAPHVIZ environment" />
     <option name="LAST_COMMIT_MESSAGE" value="Fixed paths, added GRAPHVIZ environment" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
 </project>
