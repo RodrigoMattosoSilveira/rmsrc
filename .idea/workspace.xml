@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e68dd1a2-39be-4859-9caa-3d9b30eb6720" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/zsh/.zshrc" beforeDir="false" afterPath="$PROJECT_DIR$/zsh/.zshrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/zshenv/python.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pictures/Rodrigo New 390.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pictures/Rodrigo New 640.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pictures/Rodrigo New Original.jpeg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +30,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/zsh/zshenv" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -39,6 +43,9 @@
       <workItem from="1623080891100" duration="32000" />
       <workItem from="1626898644049" duration="170000" />
       <workItem from="1626898834669" duration="563000" />
+      <workItem from="1638754588493" duration="416000" />
+      <workItem from="1638986277562" duration="741000" />
+      <workItem from="1639688793967" duration="576000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed paths, added GRAPHVIZ environment">
       <created>1626898194961</created>
@@ -68,7 +75,21 @@
       <option name="project" value="LOCAL" />
       <updated>1630520368339</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Fixed the reference to rmsrc/zsh/.zsh.rc to use ~">
+      <created>1635025665771</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1635025665771</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added pytest to my environment">
+      <created>1638754981014</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1638754981014</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -80,7 +101,9 @@
     <MESSAGE value="Configured the folder where yarn places global files" />
     <MESSAGE value="Always add new files" />
     <MESSAGE value="Removed yarn configuration" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed yarn configuration" />
+    <MESSAGE value="Fixed the reference to rmsrc/zsh/.zsh.rc to use ~" />
+    <MESSAGE value="Added pytest to my environment" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added pytest to my environment" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
 </project>
