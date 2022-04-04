@@ -1,0 +1,3 @@
+#!/bin/zsh
+
+python3 manage.py $1 $2 $3 $4
