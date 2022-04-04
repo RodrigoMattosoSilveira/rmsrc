@@ -32,7 +32,7 @@ else
     fi
 
 fi
-for file in ~/rmsrc/zsh/bin/*.sh;
+for file in ~/rmsrc/zsh/bin/*;
   do
     echo "Copying $file to $localDir/$binDir/"
     cp $file "$localDir/$binDir/"
