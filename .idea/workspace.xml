@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="e68dd1a2-39be-4859-9caa-3d9b30eb6720" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/zsh/zshenv/golang.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,6 +35,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/zsh/zshenv" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/zsh/zshenv" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -48,6 +55,7 @@
       <workItem from="1636161593108" duration="322000" />
       <workItem from="1636681657212" duration="538000" />
       <workItem from="1640050744616" duration="297000" />
+      <workItem from="1640392203322" duration="422000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed paths, added GRAPHVIZ environment">
       <created>1626898194961</created>
@@ -84,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635024716540</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added golang configuration">
+      <created>1640392528742</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1640392528742</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -97,7 +112,8 @@
     <MESSAGE value="Always add new files" />
     <MESSAGE value="Removed yarn configuration" />
     <MESSAGE value="Added .zshrc and .zshenv; they go into the home folder and call the ~/rmsrc cousins" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added .zshrc and .zshenv; they go into the home folder and call the ~/rmsrc cousins" />
+    <MESSAGE value="Added golang configuration" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added golang configuration" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
 </project>
