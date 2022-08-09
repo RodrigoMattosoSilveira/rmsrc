@@ -1,4 +1,5 @@
 #!/bin/zsh
 echo "sourcing ~/rmsrc/zsh/zshenv/golang.sh"
 
-PATH=$PATH:~/go/bin/
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
