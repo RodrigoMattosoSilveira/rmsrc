@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="faaba8cf-b279-42f8-bdfe-088331ff4b09" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zsh/zshrc/alias.sh" beforeDir="false" afterPath="$PROJECT_DIR$/zsh/zshrc/alias.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +56,11 @@
       <workItem from="1659793994754" duration="382000" />
       <workItem from="1659896364413" duration="219000" />
       <workItem from="1659999903561" duration="119000" />
+      <workItem from="1660053772238" duration="570000" />
+      <workItem from="1661379461653" duration="707000" />
+      <workItem from="1661380278074" duration="191000" />
+      <workItem from="1663983074053" duration="179000" />
+      <workItem from="1667417262013" duration="688000" />
     </task>
     <task id="LOCAL-00001" summary="added GNU make 4.3">
       <created>1659794467404</created>
@@ -70,7 +76,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659896583761</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Updated it to follow MACOS installation instructions (https://www.programming-books.io/essential/go/mac-os-install-and-setup-a223f756151c45cd9cc6acd2db0ebda0)">
+      <created>1660053917410</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1660053917410</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -79,7 +92,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added GNU make 4.3" />
     <MESSAGE value="added curl installed by brew" />
-    <option name="LAST_COMMIT_MESSAGE" value="added curl installed by brew" />
+    <MESSAGE value="Updated it to follow MACOS installation instructions (https://www.programming-books.io/essential/go/mac-os-install-and-setup-a223f756151c45cd9cc6acd2db0ebda0)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated it to follow MACOS installation instructions (https://www.programming-books.io/essential/go/mac-os-install-and-setup-a223f756151c45cd9cc6acd2db0ebda0)" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>

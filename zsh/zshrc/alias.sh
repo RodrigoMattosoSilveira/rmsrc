@@ -21,3 +21,12 @@ alias totsm='cd ~/projects/rms-ts-monads'
 alias tormsrc='cd ~/rmsrc'
 alias tosm='cd ~/projects/space-monad'
 alias toswiss='cd ~/projects/chess-tournament-swiss'
+
+# make aliases
+alias mrs='make run_server'
+alias mrc='make run_client'
+alias mru='make run_ui'
+
+alias mcc='make clean_certificates'
+alias mcg='make clean_grpc'
+alias mc='make clean'
