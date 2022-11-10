@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="faaba8cf-b279-42f8-bdfe-088331ff4b09" name="Changes" comment="" />
+    <list default="true" id="faaba8cf-b279-42f8-bdfe-088331ff4b09" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/zsh/zshenv/buf.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,6 +62,7 @@
       <workItem from="1663983074053" duration="179000" />
       <workItem from="1667417262013" duration="927000" />
       <workItem from="1668107983780" duration="134000" />
+      <workItem from="1668108130401" duration="667000" />
     </task>
     <task id="LOCAL-00001" summary="added GNU make 4.3">
       <created>1659794467404</created>
@@ -88,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667418261253</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added support for buf">
+      <created>1668108413979</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1668108413979</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,7 +110,8 @@
     <MESSAGE value="added curl installed by brew" />
     <MESSAGE value="Updated it to follow MACOS installation instructions (https://www.programming-books.io/essential/go/mac-os-install-and-setup-a223f756151c45cd9cc6acd2db0ebda0)" />
     <MESSAGE value="Added a few make aliases" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a few make aliases" />
+    <MESSAGE value="Added support for buf" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added support for buf" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
