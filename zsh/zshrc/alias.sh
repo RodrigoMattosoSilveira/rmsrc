@@ -20,7 +20,7 @@ alias tonodes='cd ~/projects/node-scripts'
 alias totsm='cd ~/projects/rms-ts-monads'
 alias tormsrc='cd ~/rmsrc'
 alias tosm='cd ~/projects/space-monad'
-alias toswiss='cd ~/projects/chess-tournament-swiss'
+alias toswiss='cd ~/projects/go-swiss-pairing'
 
 # make aliases
 alias mrs='make run_server'

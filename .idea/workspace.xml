@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="faaba8cf-b279-42f8-bdfe-088331ff4b09" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/zsh/zshenv/buf.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="faaba8cf-b279-42f8-bdfe-088331ff4b09" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,7 +59,7 @@
       <workItem from="1663983074053" duration="179000" />
       <workItem from="1667417262013" duration="927000" />
       <workItem from="1668107983780" duration="134000" />
-      <workItem from="1668108130401" duration="667000" />
+      <workItem from="1668108130401" duration="683000" />
     </task>
     <task id="LOCAL-00001" summary="added GNU make 4.3">
       <created>1659794467404</created>
@@ -99,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668108413979</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added support for buf">
+      <created>1668108848195</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1668108848195</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
