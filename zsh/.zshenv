@@ -18,7 +18,7 @@ export GOBIN=$HOME/go/bin
 export PATH=/usr/local/opt/curl/bin:$PATH
 
 #echo "GO"
-export PATH=$GOBIN/bin:$PATH
+export PATH=$GOBIN:$PATH
 
 #echo "make"
 export PATH=/usr/local/opt/make/libexec/gnubin:$PATH

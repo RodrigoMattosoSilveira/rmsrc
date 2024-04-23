@@ -11,7 +11,7 @@ echo "I'm ~/rmsrc/zsh/.zshrc"
 # command line aliases
 #####
 alias ll='ls -alF'
-alias path='env | grep "PATH"'
+alias path='echo ${PATH//:/$"\n"}'
 alias srcrc='source ~/.zshrc'
 alias srcenv='source ~/.zshenv'
 alias srcall='source ~/.zshenv  && source ~/.zshrc'
@@ -20,6 +20,7 @@ alias srcall='source ~/.zshenv  && source ~/.zshrc'
 alias catalias='cat ~/rmsrc/zsh/zshrc/alias.sh'
 
 alias source_zsh="source ~/rmsrc/zsh/zsh_rc_env.sh"
+
 
 # Navigating aliases
 alias togia='cd ~/projects/graphql-in-action'
