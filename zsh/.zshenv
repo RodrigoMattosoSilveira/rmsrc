@@ -1,6 +1,39 @@
-# Sourced on all invocations of the shell.
-# It often contains exported variables that should be available to other programs, as for instance example, $PATH.
-echo "I'm .zshenv"
-if [ -f ~/rmsrc/zsh/zshenv/.zshenv ]; then
-  source ~/rmsrc/zsh/zshenv/.zshenv
-fi
+#!/bin/zsh
+
+echo "I'm ~/rmsrc/zsh/.zshenv"
+
+###########
+# Important environment variables 
+###########
+#
+#echo "GO"
+export GOPATH=$HOME/go
+export GOBIN=$HOME/go/bin
+
+###########
+# PATH
+###########
+#
+#echo "curl"
+export PATH=/usr/local/opt/curl/bin:$PATH
+
+#echo "GO"
+export PATH=$GOBIN/bin:$PATH
+
+#echo "make"
+export PATH=/usr/local/opt/make/libexec/gnubin:$PATH
+
+#echo Postgres
+export PATH=/Applications/Postgres.app/Contents/Versions/latest/bin:$PATH
+
+#echo Python
+export PATH=/Library/Frameworks/Python.framework/Versions/3.9/bin:$PATH
+
+#echo applications
+export PATH=/Applications:$PATH
+
+#MFor use with MacPorts.
+export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
+
+#echo My zsh scipts
+export PATH=~/rmsrc/zsh/bin:$PATH

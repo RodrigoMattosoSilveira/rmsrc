@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="faaba8cf-b279-42f8-bdfe-088331ff4b09" name="Changes" comment="" />
+    <list default="true" id="faaba8cf-b279-42f8-bdfe-088331ff4b09" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rmsrc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/rmsrc.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="GOROOT" url="file:///usr/local/opt/go/libexec" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -28,8 +32,10 @@
     &quot;RunOnceActivity.go.format.on.save.advertiser.fired&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/rodrigosilveira/rmsrc/zsh/zshenv&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
@@ -60,6 +66,13 @@
       <workItem from="1667417262013" duration="927000" />
       <workItem from="1668107983780" duration="134000" />
       <workItem from="1668108130401" duration="683000" />
+      <workItem from="1668196671186" duration="252000" />
+      <workItem from="1669999242168" duration="28000" />
+      <workItem from="1670702333621" duration="692000" />
+      <workItem from="1671921714003" duration="599000" />
+      <workItem from="1671923124385" duration="580000" />
+      <workItem from="1673381293406" duration="599000" />
+      <workItem from="1674238048072" duration="749000" />
     </task>
     <task id="LOCAL-00001" summary="added GNU make 4.3">
       <created>1659794467404</created>
@@ -103,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668108848195</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Update the toswiss alias to take me to the go project">
+      <created>1668196772499</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1668196772499</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,7 +135,8 @@
     <MESSAGE value="Updated it to follow MACOS installation instructions (https://www.programming-books.io/essential/go/mac-os-install-and-setup-a223f756151c45cd9cc6acd2db0ebda0)" />
     <MESSAGE value="Added a few make aliases" />
     <MESSAGE value="Added support for buf" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added support for buf" />
+    <MESSAGE value="Update the toswiss alias to take me to the go project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update the toswiss alias to take me to the go project" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
