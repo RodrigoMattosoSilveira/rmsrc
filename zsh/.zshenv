@@ -7,8 +7,8 @@ echo "I'm ~/rmsrc/zsh/.zshenv"
 ###########
 #
 #echo "GO"
-export GOPATH=$HOME/go
-export GOBIN=$HOME/go/bin
+export GOPATH=$HOME/projects/go-tutorial
+export GOBIN=$GOPATH/bin
 
 ###########
 # PATH

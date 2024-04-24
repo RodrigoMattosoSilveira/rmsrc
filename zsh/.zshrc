@@ -15,11 +15,12 @@ alias path='echo ${PATH//:/$"\n"}'
 alias srcrc='source ~/.zshrc'
 alias srcenv='source ~/.zshenv'
 alias srcall='source ~/.zshenv  && source ~/.zshrc'
+alias goenv='env | grep -E "GOPATH|GOBIN"'
 
 # CAT aliases to see what is in certain files
 alias catalias='cat ~/rmsrc/zsh/zshrc/alias.sh'
 
-alias source_zsh="source ~/rmsrc/zsh/zsh_rc_env.sh"
+alias zshall="source ~/rmsrc/zsh/zsh_all.sh"
 
 
 # Navigating aliases
