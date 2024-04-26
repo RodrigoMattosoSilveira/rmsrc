@@ -14,6 +14,9 @@ export GOBIN=$GOPATH/bin
 # PATH
 ###########
 #
+#echo "mysql"
+export PATH=/usr/local/mysql/bin:$PATH
+
 #echo "curl"
 export PATH=/usr/local/opt/curl/bin:$PATH
 
