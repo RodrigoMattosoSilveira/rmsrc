@@ -31,9 +31,6 @@ export PATH=$GOBIN:$PATH
 #echo "make"
 export PATH=/usr/local/opt/make/libexec/gnubin:$PATH
 
-#echo Postgres
-export PATH=/Applications/Postgres.app/Contents/Versions/latest/bin:$PATH
-
 #echo Python
 export PATH=/Library/Frameworks/Python.framework/Versions/3.9/bin:$PATH
 
