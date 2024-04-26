@@ -10,6 +10,11 @@ echo "I'm ~/rmsrc/zsh/.zshenv"
 export GOPATH=$HOME/projects/go-tutorial
 export GOBIN=$GOPATH/bin
 
+#echo "mysql" 
+# FIXME: Change to a user, hide it
+export DBUSER=root
+export DBPASS=Rrqmss1#
+
 ###########
 # PATH
 ###########
