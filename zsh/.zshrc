@@ -24,12 +24,13 @@ alias zshall="source ~/rmsrc/zsh/zsh_all.sh"
 
 
 # Navigating aliases
-alias togia='cd ~/projects/graphql-in-action'
-alias tonodes='cd ~/projects/node-scripts'
-alias totsm='cd ~/projects/rms-ts-monads'
+# alias togia='cd ~/projects/graphql-in-action'
+# alias tonodes='cd ~/projects/node-scripts'
+# alias totsm='cd ~/projects/rms-ts-monads'
+# alias tosm='cd ~/projects/space-monad'
+# alias toswiss='cd ~/projects/go-swiss-pairing'
 alias tormsrc='cd ~/rmsrc'
-alias tosm='cd ~/projects/space-monad'
-alias toswiss='cd ~/projects/go-swiss-pairing'
+alias tormsrc='cd ~/projects/go-tutorial'
 
 # make aliases
 alias mrs='make run_server'
