@@ -30,7 +30,7 @@ alias zshall="source ~/rmsrc/zsh/zsh_all.sh"
 # alias tosm='cd ~/projects/space-monad'
 # alias toswiss='cd ~/projects/go-swiss-pairing'
 alias tormsrc='cd ~/rmsrc'
-alias tormsrc='cd ~/projects/go-tutorial'
+alias togotut='cd ~/projects/go-tutorial'
 
 # make aliases
 alias mrs='make run_server'
