@@ -8,7 +8,7 @@ echo "I'm ~/rmsrc/zsh/.zshenv"
 #
 #echo "GO"
 # export GOPATH=$HOME/go (default)
-export GOPATH=$HOME/projects/go-tutorial
+export GOPATH=$HOME/projects/go-frameworks-eval
 export GOBIN=$GOPATH/bin
 
 #echo "mysql" 

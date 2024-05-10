@@ -31,6 +31,7 @@ alias zshall="source ~/rmsrc/zsh/zsh_all.sh"
 # alias toswiss='cd ~/projects/go-swiss-pairing'
 alias tormsrc='cd ~/rmsrc'
 alias togotut='cd ~/projects/go-tutorial'
+alias togoeval='cd ~/projects/go-frameworks-eval'
 
 # make aliases
 alias mrs='make run_server'
