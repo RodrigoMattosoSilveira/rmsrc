@@ -26,6 +26,7 @@ alias goenv='env | grep -E "GOPATH|GOBIN"'\
 alias tormsrc='cd ~/rmsrc'
 alias togotut='cd ~/projects/go-tutorial'
 alias togoeval='cd ~/projects/go-frameworks-eval'
+alias togradeit='cd ~/projects/gradeit'
 
 # make aliases
 alias mrs='make run_server'
