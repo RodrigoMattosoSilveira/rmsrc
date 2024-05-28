@@ -27,6 +27,7 @@ alias tormsrc='cd ~/rmsrc'
 alias togotut='cd ~/projects/go-tutorial'
 alias togoeval='cd ~/projects/go-frameworks-eval'
 alias togradeit='cd ~/projects/gradeit'
+alias tojwt='cd ~/projects/go-gin-jwt-ar'
 
 # make aliases
 alias mrs='make run_server'
