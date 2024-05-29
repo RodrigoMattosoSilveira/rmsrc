@@ -8,7 +8,8 @@ echo "I'm ~/rmsrc/zsh/.zshenv"
 #
 #echo "GO"
 # export GOPATH=$HOME/go (default)
-export GOPATH=$HOME/projects/go-gin-jwt-ar
+# export GOPATH=$HOME/projects/go-gin-jwt-ar
+export GOPATH=$HOME/projects/gradeit
 export GOBIN=$GOPATH/bin
 
 ###########
