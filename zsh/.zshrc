@@ -24,10 +24,12 @@ alias goenv='env | grep -E "GOPATH|GOBIN"'\
 # alias tosm='cd ~/projects/space-monad'
 # alias toswiss='cd ~/projects/go-swiss-pairing'
 alias tormsrc='cd ~/rmsrc'
-alias togotut='cd ~/projects/go-tutorial'
-alias togoeval='cd ~/projects/go-frameworks-eval'
-alias togradeit='cd ~/projects/gradeit'
-alias tojwt='cd ~/projects/go-gin-jwt-ar'
+alias togotut='cd ~/projects/go-tutorial/src'
+alias togoeval='cd ~/projects/go-frameworks-eval/src'
+alias togradeit='cd ~/projects/gradeit/src'
+alias tojwt='cd ~/projects/go-gin-jwt-ar/src'
+alias togoplay='cd ~/projects/go-playground/src'
+alias tocfg='cd ~/projects/config/src'
 
 # make aliases
 alias mrs='make run_server'

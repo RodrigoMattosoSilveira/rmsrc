@@ -10,6 +10,8 @@ echo "I'm ~/rmsrc/zsh/.zshenv"
 # export GOPATH=$HOME/go (default)
 # export GOPATH=$HOME/projects/go-gin-jwt-ar
 export GOPATH=$HOME/projects/gradeit
+# export GOPATH=$HOME/projects/go-playground
+# export GOPATH=$HOME/projects/config
 export GOBIN=$GOPATH/bin
 
 ###########
