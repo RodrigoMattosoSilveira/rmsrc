@@ -1,5 +1,7 @@
 #!/bin/zsh
 
+# https://stackseekers.com/posts/delete-local-git-branches-not-on-remote/#delete-stale-local-branches
+
 # List of local branches to exclude from deletion
 EXCLUDED_BRANCHES=("main" "master" "dev" "staging")
 
