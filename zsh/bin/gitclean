@@ -1,0 +1,22 @@
+#!/bin/zsh
+
+# List of local branches to exclude from deletion
+EXCLUDED_BRANCHES=("main" "master" "dev" "staging")
+
+# Fetch the latest and prune deleted remote branches
+git fetch -p
+
+# Loop through all local branches
+for branch in $(git branch --format='%(refname:short)'); do
+  # Check if the branch is in the exclusion list
+  if [[ " ${EXCLUDED_BRANCHES[@]} " =~ " ${branch} " ]]; then
+    echo "Skipping excluded branch: $branch"
+    continue
+  fi
+
+  # Delete if the branch is not found in remotes
+  if ! git show-ref --quiet refs/remotes/origin/$branch; then
+    echo "Deleting local branch: $branch"
+    git branch -d "$branch"  # Use -D to force delete if unmerged
+  fi
+done
