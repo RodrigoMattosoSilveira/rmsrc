@@ -12,9 +12,9 @@ echo "I'm ~/rmsrc/zsh/.zshenv"
 # export GOPATH=$HOME/projects/go-playground
 # export GOPATH=$HOME/projects/config
 # export GOPKG=src/github.com/RodrigoMattosoSilveira/gradeit
-export GOPROECT=$HOME/projects/ContasCorrentes 
+export GOPROJECT=$HOME/projects/CurrentAccounts
 export GOPATH=$HOME/go
-export GOBIN=$GOPROECT/bin
+export GOBIN=$GOPROJECT/bin
 
 ###########
 # PATH
