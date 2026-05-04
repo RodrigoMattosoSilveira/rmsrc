@@ -15,7 +15,8 @@ alias path='echo ${PATH//:/$"\n"}'
 alias srcrc='source ~/.zshrc'
 alias srcenv='source ~/.zshenv'
 alias srcall='source ~/.zshenv  && source ~/.zshrc'
-alias goenv='env | grep -E "GOPATH|GOBIN"'\
+alias goenv='env | grep -E "GOPATH|GOBIN"'
+alias tosqr='ssh deploy@178.105.46.193'
 
 # Navigating aliases
 # alias togia='cd ~/projects/graphql-in-action'
@@ -30,6 +31,8 @@ alias togradeit='cd ~/projects/gradeit/src/github.com/RodrigoMattosoSilveira/gra
 alias tojwt='cd ~/projects/go-gin-jwt-ar/src'
 alias togoplay='cd ~/projects/go-playground/src'
 alias tocfg='cd ~/projects/config/src'
+alias tocabe='cd ~/projects/CollaboratorAccounting/frontend'
+alias tocafe='cd ~/projects/CollaboratorAccounting/backend'
 
 # make aliases
 alias mrs='make run_server'
