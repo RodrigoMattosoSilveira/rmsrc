@@ -18,7 +18,7 @@ alias srcall='source ~/.zshenv  && source ~/.zshrc'
 alias goenv='env | grep -E "GOPATH|GOBIN"'
 alias toersroot='ssh root@178.105.46.193'
 alias toers='ssh deploy@178.105.46.193'
-alias toeccroot='ssh root@5.78.208.230'
+alias toccroot='ssh root@5.78.208.230'
 alias tocc='ssh deploy@5.78.208.230'
 alias flshdns='sudo killall -HUP mDNSResponder && sudo killall mDNSResponderHelper && sudo dscacheutil -flushcache'
 
