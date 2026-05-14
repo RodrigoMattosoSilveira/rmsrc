@@ -16,8 +16,9 @@ alias srcrc='source ~/.zshrc'
 alias srcenv='source ~/.zshenv'
 alias srcall='source ~/.zshenv  && source ~/.zshrc'
 alias goenv='env | grep -E "GOPATH|GOBIN"'
-alias tosqr='ssh deploy@178.105.46.193'
-alias flushcache='sudo killall -HUP mDNSResponder && sudo killall mDNSResponderHelper && sudo dscacheutil -flushcache'
+alias toers='ssh deploy@178.105.46.193'
+alias tocc='ssh deploy@5.78.208.230'
+alias flshdns='sudo killall -HUP mDNSResponder && sudo killall mDNSResponderHelper && sudo dscacheutil -flushcache'
 
 # Navigating aliases
 # alias togia='cd ~/projects/graphql-in-action'
