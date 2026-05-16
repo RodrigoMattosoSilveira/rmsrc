@@ -3,7 +3,7 @@
 # https://stackseekers.com/posts/delete-local-git-branches-not-on-remote/#delete-stale-local-branches
 
 # List of local branches to exclude from deletion
-EXCLUDED_BRANCHES=("main" "master" "dev" "staging")
+EXCLUDED_BRANCHES=("production" "test" "development")
 
 # Fetch the latest and prune deleted remote branches
 git fetch -p
