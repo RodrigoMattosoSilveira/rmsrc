@@ -21,6 +21,7 @@ alias toers='ssh deploy@178.105.46.193'
 alias toccroot='ssh root@5.78.208.230'
 alias toccOld='ssh deploy@5.78.208.230'
 alias tocc="ssh -i /Users/rodrigosilveira/.ssh/callitcureit-github-actions/callitcureit_github_actions_deploy 'deploy@5.78.208.230'"
+alias toers='ssh ers-rodrigo'
 alias flshdns='sudo killall -HUP mDNSResponder && sudo killall mDNSResponderHelper && sudo dscacheutil -flushcache'
 
 # Navigating aliases
@@ -36,8 +37,8 @@ alias togradeit='cd ~/projects/gradeit/src/github.com/RodrigoMattosoSilveira/gra
 alias tojwt='cd ~/projects/go-gin-jwt-ar/src'
 alias togoplay='cd ~/projects/go-playground/src'
 alias tocfg='cd ~/projects/config/src'
-alias tocabe='cd ~/projects/CollaboratorAccounting/frontend'
-alias tocafe='cd ~/projects/CollaboratorAccounting/backend'
+alias toersbe='cd ~/projects/EnterpriseResourceSystems/backend'
+alias toersfe='cd ~/projects/EnterpriseResourceSystems/frontend'
 
 # make aliases
 alias mrs='make run_server'
