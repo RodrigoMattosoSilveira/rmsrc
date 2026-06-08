@@ -22,3 +22,6 @@ for branch in $(git branch --format='%(refname:short)'); do
     git branch -d "$branch"  # Use -D to force delete if unmerged
   fi
 done
+
+echo "Done. Current branches:"
+git branch -a
