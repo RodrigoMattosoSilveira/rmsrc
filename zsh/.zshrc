@@ -38,8 +38,9 @@ alias togradeit='cd ~/projects/gradeit/src/github.com/RodrigoMattosoSilveira/gra
 alias tojwt='cd ~/projects/go-gin-jwt-ar/src'
 alias togoplay='cd ~/projects/go-playground/src'
 alias tocfg='cd ~/projects/config/src'
-alias toersbe='cd ~/projects/EnterpriseRemoteSystems/backend'
-alias toersfe='cd ~/projects/EnterpriseRemoteSystems/frontend'
+alias toersr='cd ~/projects/EnterpriseRemoteSystems'
+alias toersb='cd ~/projects/EnterpriseRemoteSystems/backend'
+alias toersf='cd ~/projects/EnterpriseRemoteSystems/frontend'
 
 # make aliases
 alias mrs='make run_server'
@@ -49,7 +50,7 @@ alias mru='make run_ui'
 alias mcc='make clean_certificates'
 alias mcg='make clean_grpc'
 alias mc='make clean'
-
+cd 
 #####
 # terminal prompt
 #####
