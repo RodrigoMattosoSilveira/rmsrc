@@ -1,0 +1,10 @@
+#!/bin/zsh
+
+# Prints current branch name, commit hash,status of the current git repository, 
+# and saves it as a zip file.
+
+git branch --show-current
+git rev-parse HEAD
+git status --short
+rm  ~/Downloads/branch.zip
+git archive --format=zip -o ~/Downloads/branch.zip  HEAD
