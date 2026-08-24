@@ -1,0 +1,23 @@
+#!/usr/bin/env zsh
+
+# Usage: gitpatch <patch-file>
+# Runs `git apply --check` on the given file; if that succeeds, runs `git apply`.
+
+if (( $# != 1 )); then
+  print -u2 "Usage: $0 <patch-file>"
+  exit 1
+fi
+
+local patch=$1
+
+if [[ ! -f $patch ]]; then
+  print -u2 "Error: file not found: $patch"
+  exit 1
+fi
+
+if git apply --check -- "$patch"; then
+  git apply -- "$patch"
+else
+  print -u2 "Patch check failed; not applying."
+  exit 1
+fi
