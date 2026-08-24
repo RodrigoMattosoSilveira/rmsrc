@@ -1,0 +1,6 @@
+#!/bin/zsh
+
+# Prints current branch name and SHA of the current git repository.
+
+git branch --show-current
+git rev-parse HEAD
