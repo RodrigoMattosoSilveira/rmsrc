@@ -1,10 +1,57 @@
-#!/bin/zsh
-
 # Prints current branch name, commit hash,status of the current git repository, 
 # and saves it as a zip file.
 
-git branch --show-current
-git rev-parse HEAD
-git status --short
-rm  ~/Downloads/branch.zip
-git archive --format=zip -o ~/Downloads/branch.zip  HEAD
+# git branch --show-current
+# git rev-parse HEAD
+# git status --short
+# rm  ~/Downloads/branch.zip
+# git archive --format=zip -o ~/Downloads/branch.zip  HEAD
+
+#!/usr/bin/env bash
+set -euo pipefail
+
+# Make sure we're inside a Git repository.
+git rev-parse --is-inside-work-tree >/dev/null 2>&1 || {
+    echo "ERROR: Not inside a Git repository." >&2
+    exit 1
+}
+
+# Refuse to archive if there are uncommitted changes.
+STATUS="$(git status --short)"
+
+if [[ -n "$STATUS" ]]; then
+    echo "ERROR: Working tree is not clean."
+    echo
+    echo "$STATUS"
+    echo
+    echo "Commit or discard these changes before creating the ERS source archive."
+    exit 1
+fi
+
+# Get current branch and committed SHA.
+BRANCH="$(git branch --show-current)"
+FULL_SHA="$(git rev-parse HEAD)"
+SHORT_SHA="$(git rev-parse --short=8 HEAD)"
+
+if [[ -z "$BRANCH" ]]; then
+    echo "ERROR: HEAD is detached; no branch name is available." >&2
+    exit 1
+fi
+
+# Make the branch name filename-safe.
+SAFE_BRANCH="${BRANCH//\//-}"
+
+OUTPUT="$HOME/Downloads/${SAFE_BRANCH}-${SHORT_SHA}.zip"
+
+echo "Branch: $BRANCH"
+echo "SHA:    $FULL_SHA"
+echo "Output: $OUTPUT"
+echo
+
+git archive \
+    --format=zip \
+    --output="$OUTPUT" \
+    HEAD
+
+echo "Created:"
+echo "$OUTPUT"
