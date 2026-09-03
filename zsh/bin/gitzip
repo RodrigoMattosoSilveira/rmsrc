@@ -43,6 +43,11 @@ SAFE_BRANCH="${BRANCH//\//-}"
 
 OUTPUT="$HOME/Downloads/${SAFE_BRANCH}-${SHORT_SHA}.zip"
 
+if [ -e "$OUTPUT" ]; then
+    rm "$OUTPUT"
+    echo "Existing $OUTPUT removed."
+fi
+
 echo "Branch: $BRANCH"
 echo "SHA:    $FULL_SHA"
 echo "Output: $OUTPUT"
