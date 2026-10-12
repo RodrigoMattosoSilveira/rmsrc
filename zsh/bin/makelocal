@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-make local-check 2>&1 | tee /tmp/ers-local-check.log
+make local-check 2>&1 | tee ~/Downloads/ers-local-check.log
