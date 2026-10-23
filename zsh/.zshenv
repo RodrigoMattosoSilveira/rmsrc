@@ -15,7 +15,7 @@ fi
 # export GOPATH=$HOME/projects/go-playground
 # export GOPATH=$HOME/projects/config
 # export GOPKG=src/github.com/RodrigoMattosoSilveira/gradeit
-export GOPROJECT=$HOME/projects/CurrentAccounts
+export GOPROJECT=$HOME/projects/EnterpriseRemoteSystems
 export GOPATH=$HOME/go
 export GOBIN=$GOPROJECT/bin
 
