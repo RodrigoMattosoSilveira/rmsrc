@@ -1,6 +1,9 @@
 #!/bin/zsh
 
-echo "I'm ~/rmsrc/zsh/.zshenv"
+# Only print messages in interactive shells 
+if [[ $- == *i* ]]; then  
+echo "I'm ~/rmsrc/zsh/.zshenv" 
+fi 
 
 ###########
 # Important environment variables 

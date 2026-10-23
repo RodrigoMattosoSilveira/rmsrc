@@ -1,5 +1,10 @@
 #!/bin/zsh
-echo "I'm ~/rmsrc/zsh/.zshrc"
+
+# Only print messages in interactive shells 
+if [[ $- == *i* ]]; then  
+	echo "I'm ~/rmsrc/zsh/.zshrc"
+fi 
+
 
 # Sourced in interactive shells only.
 # It should contain commands to set up aliases, functions, options, key bindings,
