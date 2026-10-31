@@ -28,7 +28,7 @@ alias toccroot='ssh root@5.78.208.230'
 alias toccOld='ssh deploy@5.78.208.230'
 alias tocc="ssh -i /Users/rodrigosilveira/.ssh/callitcureit-github-actions/callitcureit_github_actions_deploy 'deploy@5.78.208.230'"
 alias toersrms='ssh ers-rodrigo'
-alias toersdeploy='ssh ers-deploy'
+alias toersdeploy='ssh -o "ServerAliveInterval 60" -o "ServerAliveCountMax 3" ers-deploy'
 alias flshdns='sudo killall -HUP mDNSResponder && sudo killall mDNSResponderHelper && sudo dscacheutil -flushcache'
 
 # Navigating aliases
